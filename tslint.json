@@ -1,0 +1,30 @@
+{
+  "extends": "tslint:recommended",
+  "rules": {
+    /*
+     * Any rules specified here will override those from the base config we are extending.
+     */
+//    "curly": [true, "ignore-same-line"], // <-- TODO it looks that 'ignore-same-line' is not working
+		"curly": false,
+    "quotemark": [true, "avoid-escape", "single"],
+    "one-variable-per-declaration": false,
+    "one-line": [true, "check-open-brace", "check-whitespace"],
+    "object-literal-sort-keys": false,
+    "no-console": [true, "log"],
+    "no-bitwise": false,
+    "member-ordering": "instance-sandwich",
+    "interface-name": false,
+//		"comment-format": [true, "check-space", { "ignore-pattern": "[\\-]" }], // <-- TODO it looks that 'ignore-pattern' is not working
+		"comment-format": false,
+    "indent": [true, "tabs", 4],
+		"arrow-parens": [true, "ban-single-arg-parens"]
+  },
+  "jsRules": {
+  },
+  "rulesDirectory": [
+    /*
+     * A list of relative or absolute paths to directories that contain custom rules.
+     * See the Custom Rules documentation below for more details.
+     */
+  ]
+}
