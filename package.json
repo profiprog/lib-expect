@@ -1,6 +1,6 @@
 {
   "name": "lib-expect",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Tool for automating run interactive programs inspired by https://linux.die.net/man/1/expect",
   "main": "dist/lib-expect.js",
   "typings": "dist/lib-expect.d.ts",
